@@ -48,3 +48,24 @@ $gafamArray = [
         "city" => "Mountain View"
     ]
 ];
+
+
+// - Le salaire de Bill Gates
+echo($gafamArray["GAFAM001"]["salary"]);
+echo "<br>";
+
+// - La société de Jeff Bezos
+echo($gafamArray["GAFAM002"]["company"]);
+echo "<br>";
+
+// - La ville du siège Social d'Apple
+echo($gafamArray["GAFAM003"]["city"]);
+echo "<br>";
+
+// - Le prénom du patron de Google
+echo($gafamArray["GAFAM005"]["firstname"]);
+echo "<br>";
+
+// - Le nom du Patron de Facebook
+echo($gafamArray["GAFAM004"]["lastname"]);
+echo "<br>";
